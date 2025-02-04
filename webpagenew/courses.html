@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Programming Courses</title>
+    <style>
+        /* Basic Styling */
+        body {
+            font-family: Arial, serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4; /* Light background for better readability */
+            color: #333; /* Dark text color */
+        }
+
+        header {
+            font-size: 50px;
+            background-color: #4CAF50; /* Green header */
+            color: white;
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .logo {
+            max-width: 150px; /* Limits the width of the logo */
+            height: auto; /* Maintains aspect ratio */
+            display: block; /* Ensures it's block-level */
+            margin: 0 auto 10px; /* Centers the logo and adds space below */
+        }
+
+        /* Navigation Styling */
+        nav {
+            background-color: #333; /* Dark background for nav */
+            display: flex;
+            justify-content: center; /* Centers the nav links horizontally */
+            align-items: center; /* Vertically center the links */
+            padding: 10px 0;
+        }
+
+        nav a {
+            color: white;
+            padding: 14px 20px;
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+        }
+
+        nav a:hover {
+            background-color: #575757; /* Darker background on hover */
+        }
+
+        nav a.active {
+            background-color: #4CAF50; /* Highlight the active page link */
+        }
+
+        /* Main Content Styling */
+        main {
+            padding: 20px;
+            max-width: 800px; /* Limit the width of the main content */
+            margin: auto; /* Center the main content */
+        }
+
+        h2 {
+            color: #4CAF50; /* Green color for section titles */
+        }
+
+        .course {
+            background-color: white; /* White background for course cards */
+            border: 1px solid #ddd; /* Light border */
+            border-radius: 5px; /* Rounded corners */
+            padding: 15px;
+            margin: 10px 0; /* Space between course cards */
+            box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1); /* Subtle shadow */
+        }
+        
+        footer {
+            background-color: #333; /* Dark footer */
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header -->
+    <header>
+        <h1>Programming Education Portal</h1>
+        <p>Your gateway to learning programming languages and concepts.</p>
+    </header>
+
+    <!-- Navigation Bar -->
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="courses.html" class="active">Courses</a>
+        <a href="resources.html">Resources</a>
+        <a href="about.html">About Us</a>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+        <h2>Available Programming Courses</h2>
+
+        <div class="course">
+            <h3>Introduction to Python</h3>
+            <p>Learn the basics of Python programming, including syntax, data types, and control structures. Perfect for beginners!</p>
+        </div>
+
+        <div class="course">
+            <h3>Web Development with HTML, CSS, and JavaScript</h3>
+            <p>Build responsive websites using HTML, CSS, and JavaScript. This course covers everything from the basics to advanced techniques.</p>
+        </div>
+
+        <div class="course">
+            <h3>Data Structures and Algorithms</h3>
+            <p>Understand the fundamental data structures and algorithms that are essential for efficient programming and problem-solving.</p>
+        </div>
+
+        <div class="course">
+            <h3>Java Programming for Beginners</h3>
+            <p>Get started with Java programming. This course covers object-oriented programming concepts and how to build Java applications.</p>
+        </div>
+
+        <div class="course">
+            <h3>Introduction to Machine Learning</h3>
+            <p> Explore the basics of machine learning, including supervised and unsupervised learning, and how to implement algorithms using Python.</p>
+        </div>
+
+        <div class="course">
+            <h3>Mobile App Development with React Native</h3>
+            <p>Learn how to create mobile applications using React Native, covering both iOS and Android platforms.</p>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2023 Programming Education Portal</p>
+    </footer>
+
+</body>
+</html>
